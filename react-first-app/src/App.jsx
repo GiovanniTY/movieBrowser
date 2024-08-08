@@ -4,6 +4,7 @@ import FirstMovie from './assets/components/FirstMovie';
 import Trending from './assets/components/Trending';
 import Home from './assets/components/Home';
 import './App.css';
+import './Trending.css';
 
 function App() {
   return (

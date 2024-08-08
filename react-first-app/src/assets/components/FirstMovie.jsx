@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const FirstMovie = () => {
-  const [firstMovie, setFirstMovie] = useState(null); // Cambiato a `null` invece di `[]`
+  const [firstMovie, setFirstMovie] = useState(null); 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -10,7 +10,7 @@ const FirstMovie = () => {
     const fetchFirstMovie = async () => {
       try {
         const response = await axios.get(`https://api.themoviedb.org/3/trending/movie/day?api_key=dda1c3d76f77966fcc3b2c0a470ed548`);
-        const firstPopularMovie = response.data.results[0];
+        const firstPopularMovie = response.data.results[1];
         setFirstMovie(firstPopularMovie);
       } catch (error) {
         setError(error.message);
@@ -23,16 +23,16 @@ const FirstMovie = () => {
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
-  if (!firstMovie) return <div>No Movie Found</div>; // Aggiunto controllo su `firstMovie`
+  if (!firstMovie) return <div>No Movie Found</div>; 
+
+  const imageUrl = `https://image.tmdb.org/t/p/w500/${firstMovie.poster_path}`;
 
   return (
-    <div className="movie-item">
-      <img src={`https://image.tmdb.org/t/p/w500/${firstMovie.poster_path}`} alt={firstMovie.title} />
-      <h3>{firstMovie.title}</h3>
-      <p>Release Date: {firstMovie.release_date}</p>
-      <p>Overview: {firstMovie.overview}</p>
-    </div>
+    <div>
+    <div className='first-movie-item'> 
+      <img src={imageUrl} alt={firstMovie.title} className="movie-image" />
+     </div>
+     </div>
   );
 };
-
 export default FirstMovie;

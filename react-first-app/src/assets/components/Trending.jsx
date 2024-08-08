@@ -25,20 +25,25 @@ const Trending = () => {
     if (error) return <div>Error: {error}</div>;
 
     return (
-        <div>
-            <h1>Trending</h1>
-            <div className="movie-trending">
-                {movies.map(movie => (
-                    <div key={movie.id} className="movie-item">
-                        <Link to={`/movie/${movie.id}`}>
-                            <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt={movie.title} />
-                            <h3>{movie.title}</h3>
-                        </Link>
-                    </div>
-                ))}
+        <div className="trending-container">
+          <h1>Trending</h1>
+          <div className="trending-scroll-container">
+            <div className="trending-items">
+              {movies.map((movie) => (
+                <div key={movie.id} className="movie-item">
+                  <Link to={`/movie/${movie.id}`} className="text-decoration-none text-light">
+                    <img
+                      src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
+                      alt={movie.title}
+                      className="movie-imag-trending"
+                    />
+                    <h3>{movie.title}</h3>
+                  </Link>
+                </div>
+              ))}
             </div>
+          </div>
         </div>
-    );
-};
-
+      );
+    };
 export default Trending;

@@ -4,9 +4,9 @@ import Trending from "./Trending";
 
 const Home = () => {
     return(
-    <div>
+    <div className="home-page">
      <FirstMovie />
-      <Trending />
+     <Trending />
     </div>
         
     );
