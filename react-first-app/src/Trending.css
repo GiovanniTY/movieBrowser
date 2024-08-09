@@ -1,45 +1,39 @@
-/* Contenitore principale per la sezione trending */
 .trending-container {
-    width: 400px; /* Larghezza del contenitore */
-    height: 359px; /* Altezza del contenitore */
-    padding: 40px; /* Spazio interno */
-    box-sizing: border-box; /* Include padding e bordo nella larghezza e altezza totale */
-  }
-  
-  /* Contenitore per lo scorrimento orizzontale */
-  .trending-scroll-container {
-    overflow-x: auto; /* Abilita lo scorrimento orizzontale */
-    white-space: nowrap; /* Impedisce la rottura della linea */
-    display: flex; /* Usa flexbox per allineare gli elementi orizzontalmente */
-    padding: 0 20px; /* Aggiungi spazio extra ai lati del contenitore di scorrimento */
-  }
-  
-  /* Elementi all'interno dello scroll */
-  .trending-items {
-    display: flex; /* Mostra gli elementi in una riga */
-    align-items: center; /* Allinea verticalmente gli elementi */
-  }
-  
-  /* Contenitore per ogni film */
-  .movie-item {
-    width: 230px; /* Larghezza del contenitore per ogni film */
-    height: 359px; /* Altezza del contenitore per ogni film */
-    margin-right: 10px; /* Spazio tra i film */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    position: relative; /* Necessario per posizionare testo o altri elementi sopra */
-    overflow: hidden; /* Nasconde il contenuto che esce dai bordi del contenitore */
-    border-radius: 14px; /* Arrotonda gli angoli del contenitore */
-  }
-  
-  /* Immagine del film */
-  .movie-image-trending {
-    width: 100%; /* L'immagine occupa tutta la larghezza del contenitore */
-    height: 100%; /* L'immagine occupa tutta l'altezza del contenitore */
-    object-fit: cover; /* Adatta l'immagine per coprire il contenitore senza distorcerla */
-    border-radius: 14px; /* Arrotonda gli angoli dell'immagine */
-  }
-  
+  width: 400px;
+  height: 359px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.trending-scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  padding: 0 20px;
+}
+
+.trending-items {
+  display: flex;
+  align-items: center;
+}
+
+.movie-item {
+  width: 230px;
+  height: 359px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.movie-image-trending {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}

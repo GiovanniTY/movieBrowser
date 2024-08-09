@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const Trending = () => {
-    const [movies, setMovies] = useState([]); // Cambiato a `[]` invece di `null`
+    const [movies, setMovies] = useState([]); 
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
@@ -26,14 +26,14 @@ const Trending = () => {
 
     return (
         <div className="trending-container">
-          <h1>Trending</h1>
+          <h2>Trending</h2>
           <div className="trending-scroll-container">
             <div className="trending-items">
               {movies.map((movie) => (
                 <div key={movie.id} className="movie-item">
                   <Link to={`/movie/${movie.id}`} className="text-decoration-none text-light">
                     <img
-                      src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
+                      src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`}
                       alt={movie.title}
                       className="movie-imag-trending"
                     />
