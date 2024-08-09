@@ -37,7 +37,7 @@ const Trending = () => {
                       alt={movie.title}
                       className="movie-imag-trending"
                     />
-                    <h3>{movie.title}</h3>
+                    <h3 class ="movie-title">{movie.title}</h3>
                   </Link>
                 </div>
               ))}
