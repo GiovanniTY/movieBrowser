@@ -4,6 +4,8 @@ import Home from './assets/components/Home';
 import './App.css';
 import './Trending.css';
 import './MovieTitle.css'; 
+import './FirstMovie.css';
+import './NavBar.css';
 
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        {/* <Route path="/search" element={<Search />} />
+        <Route path="/profile" element={<Profile />} /> */}
       </Routes>
     </Router>
   );

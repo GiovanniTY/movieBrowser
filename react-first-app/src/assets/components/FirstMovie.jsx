@@ -9,7 +9,7 @@ const FirstMovie = () => {
   useEffect(() => {
     const fetchFirstMovie = async () => {
       try {
-        const response = await axios.get(`https://api.themoviedb.org/3/trending/movie/day?api_key=dda1c3d76f77966fcc3b2c0a470ed548`);
+        const response = await axios.get(`https://api.themoviedb.org/3/trending/movie/day?api_key=${import.meta.env.VITE_TMDB_API_KEY}`);
         const firstPopularMovie = response.data.results[1];
         setFirstMovie(firstPopularMovie);
       } catch (error) {
@@ -31,6 +31,7 @@ const FirstMovie = () => {
     <div>
     <div className='first-movie-item'> 
       <img src={imageUrl} alt={firstMovie.title} className="movie-image" />
+      <h3 className="movie-title-first"> {firstMovie.title} </h3>
      </div>
      </div>
   );

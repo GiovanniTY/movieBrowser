@@ -10,7 +10,7 @@ const Trending = () => {
     useEffect(() => {
         const fetchMovies = async () => {
             try {
-                const response = await axios.get(`https://api.themoviedb.org/3/trending/movie/day?api_key=dda1c3d76f77966fcc3b2c0a470ed548`);
+                const response = await axios.get(`https://api.themoviedb.org/3/trending/movie/day?api_key=${import.meta.env.VITE_TMDB_API_KEY}`);
                 setMovies(response.data.results);
             } catch (error) {
                 setError(error.message);
@@ -37,7 +37,7 @@ const Trending = () => {
                       alt={movie.title}
                       className="movie-imag-trending"
                     />
-                    <h3 class ="movie-title">{movie.title}</h3>
+                    <h3 className ="movie-title">{movie.title}</h3>
                   </Link>
                 </div>
               ))}
