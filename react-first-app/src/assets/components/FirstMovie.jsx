@@ -28,7 +28,7 @@ const FirstMovie = () => {
   const imageUrl = `https://image.tmdb.org/t/p/w500/${firstMovie.poster_path}`;
 
   return (
-    <div>
+    <div className='container-first'>
     <div className='first-movie-item'> 
       <img src={imageUrl} alt={firstMovie.title} className="movie-image" />
       <h3 className="movie-title-first"> {firstMovie.title} </h3>
