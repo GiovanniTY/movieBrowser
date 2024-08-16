@@ -3,6 +3,7 @@ import FirstMovie from "./FirstMovie";
 import Trending from "./Trending";
 import MovieTitle from "./MovieTitle";
 import BottomNavbar from "./NavBar";
+import MovieDetails from "./MovieDetails";
 
 
 const Home = () => {

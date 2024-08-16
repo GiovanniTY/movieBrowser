@@ -31,7 +31,7 @@ const FirstMovie = () => {
     <div className='container-first'>
     <div className='first-movie-item'> 
       <img src={imageUrl} alt={firstMovie.title} className="movie-image" />
-      <h3 className="movie-title-first"> {firstMovie.title} </h3>
+      {/* <h3 className="movie-title-first"> {firstMovie.title} </h3> */}
      </div>
      </div>
   );
