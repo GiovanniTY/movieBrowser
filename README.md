@@ -11,10 +11,12 @@
 ### Demo
 
 Here are some images showcasing the application in action:
-1. [![alt text](<react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.32.png>)]
-2. [![alt text](<react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.49.png>)]
-3. [![alt text](<react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.54.png>)]
-4. [Insert Image 4 URL here]
+1. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.32.png" alt="alt text" width="500"/>
+
+2. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.49.png" alt="alt text" width="500"/>
+
+3. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.54.png" alt="alt text" width="500"/>
+
 
 ### Built With
 - **React**: Frontend library used to build the user interface.
