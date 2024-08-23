@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import axios from "axios";
+import BottomNavbar from "./NavBar";
 
 
 const MovieDetails = () => {
@@ -71,10 +72,12 @@ const MovieDetails = () => {
                             <h3 className="h3-related-movie">{relatedMovie.title}</h3>
                             <p>{new Date(relatedMovie.release_date).getFullYear()}</p>
                         </div>
+                    
                     ))}
                 </div>
             </div>
         </div>
+        <BottomNavbar/>
         </div>
     );
 };
