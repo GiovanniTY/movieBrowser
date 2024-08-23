@@ -11,11 +11,11 @@
 ### Demo
 
 Here are some images showcasing the application in action:
-1. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.32.png" alt="alt text" width="500"/>
+1. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.32.png" alt="alt text" width="400"/>
 
-2. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.49.png" alt="alt text" width="500"/>
+2. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.49.png" alt="alt text" width="400"/>
 
-3. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.54.png" alt="alt text" width="500"/>
+3. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.54.png" alt="alt text" width="400" height="300"/>
 
 
 ### Built With
