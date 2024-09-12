@@ -11,15 +11,16 @@
 ### Demo
 
 Here are some images showcasing the application in action:
-1. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.32.png" alt="alt text" width="400"/>
 
-2. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.49.png" alt="alt text" width="400"/>
+1. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.32.png" alt="Moovie Browser Screenshot 1" width="600"/>
 
-3. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.54.png" alt="alt text" width="400"/>
+2. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.49.png" alt="Moovie Browser Screenshot 2" width="600"/>
 
+3. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.54.png" alt="Moovie Browser Screenshot 3" width="600"/>
 
 ### Built With
 - **React**: Frontend library used to build the user interface.
 - **JavaScript**: Programming language used for application logic.
 - **CSS**: For styling and layout.
 - **TMDb API**: To fetch movie data.
+
