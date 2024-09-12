@@ -12,11 +12,11 @@
 
 Here are some images showcasing the application in action:
 
-1. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.32.png" alt="Moovie Browser Screenshot 1" width="600"/>
+1. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.32.png" alt="Moovie Browser Screenshot 1" width="150"/>
 
-2. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.49.png" alt="Moovie Browser Screenshot 2" width="600"/>
+2. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.49.png" alt="Moovie Browser Screenshot 2" width="150"/>
 
-3. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.54.png" alt="Moovie Browser Screenshot 3" width="600"/>
+3. <img src="react-first-app/src/assets/img/Capture d’écran 2024-08-23 à 11.26.54.png" alt="Moovie Browser Screenshot 3" width="150"/>
 
 ### Built With
 - **React**: Frontend library used to build the user interface.
